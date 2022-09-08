@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+html,
+body,
+header,
+footer,
+main,
+section,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+    font-feature-settings: "palt";
+}
+
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す*/
+    color: inherit;
+}
+
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+}
+
+/* headerここから */
+.header_wrap {
+    height: 70px;
+    max-width: 100%;
+    padding-top: 40px;
+}
+
+.pc_nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pc_nav ul li {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: Futura, "Century Gothic";
+    color: #443c36;
+    margin-right: 30px;
+}
+
+.pc_nav_1 a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+    transform: scale(1);
+    display: block;
+}
+
+.fa-instagram {
+    color: #443c36;
+    margin-right: 30px;
+}
+
+.fa-pinterest {
+    color: #443c36;
+    margin-right: 100px;
+}
+/* headerここまで */
+
+/* privacy policyここから */
+.privacy_policy_title {
+    font-size: 38px;
+    font-weight: 300;
+    font-family: Futura, "Century Gothic";
+    color: #443c36;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.privacy_policy_text {
+    margin-top: 60px;
+    margin-bottom: 150px;
+    font-size: 18px;
+    line-height: 2.7;
+    font-weight: 500;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    color: #443c36;
+    width: 1000px;
+    word-wrap: break-word;
+}
+/* privacy policyここまで */
